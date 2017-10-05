@@ -1,0 +1,6 @@
+{
+  "name": "Acquisition",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Acquisition.js"
+}

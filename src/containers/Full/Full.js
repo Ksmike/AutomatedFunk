@@ -20,7 +20,7 @@ class Full extends Component {
             <div className="container-fluid">
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
-                <Redirect from="/" to="/dashboard"/>
+                <Redirect from="/dashboard" to="/dashboard"/>
               </Switch>
             </div>
           </main>
