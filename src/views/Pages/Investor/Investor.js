@@ -13,9 +13,6 @@ class Investor extends Component {
     return (
       <div className="app flex-row align-items-center">
         <div className="container">
-          <div>
-            <Navigation page="Investor"/>
-          </div>
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="card-group mb-0">

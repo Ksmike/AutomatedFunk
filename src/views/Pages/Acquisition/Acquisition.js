@@ -7,14 +7,14 @@ class Acquisition extends Component {
   constructor(props) {
     super(props);
   }
+  componentWillMount() {
+    console.log('BIGS: ');
+  }
 
   render() {
     return (
       <div className="app flex-row align-items-center">
         <div className="container">
-          <div>
-            <Navigation page="Acquisition"/>
-          </div>
           <div className="row justify-content-center">
             <div className="col-md-8">
               <div className="card-group mb-0">

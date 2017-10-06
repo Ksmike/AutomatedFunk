@@ -18,7 +18,7 @@ class Nav extends Component {
 
 
     return (
-      <div>
+      <header>
         <ul className="nav nav-pills nav-fill">
           <li className="nav-item">
             <a className={activeClass} href="/#/">Frontpage</a>
@@ -33,7 +33,7 @@ class Nav extends Component {
             <a className={activeClass} href="/#/acquisition">Acquisition</a>
           </li>
         </ul>
-      </div>
+      </header>
     )
   }
 }
