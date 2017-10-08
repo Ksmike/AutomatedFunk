@@ -17,7 +17,10 @@
   @include hover-focus {
     text-decoration: none;
   }
-
+  
+  img {
+    max-width: 50px;
+  }
   // Disabled state lightens text and removes hover/tab effects
   &.disabled {
     color: $nav-disabled-link-color;

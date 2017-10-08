@@ -16,7 +16,6 @@ class Nav extends Component {
   render() {
     let activeClass = "nav-link";
 
-
     return (
       <header>
         <ul className="nav nav-pills nav-fill">
@@ -33,6 +32,7 @@ class Nav extends Component {
             <a className={activeClass} href="/#/acquisition">Acquisition</a>
           </li>
         </ul>
+        <img className="header-logo animated pulse infinite" src="/img/automation_squared_logop.png"/>
       </header>
     )
   }
